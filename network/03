@@ -1,0 +1,2 @@
+# Identify the MAC address of the Wi-Fi card
+ifconfig | grep "ether " | cut -d " " -f 2 | sed -n 2p
