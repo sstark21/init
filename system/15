@@ -1,0 +1,4 @@
+# jobs -p grep PID backgrounds process
+# xargs get result from jobs and give to kill
+ 
+jobs -p | xargs kill -9

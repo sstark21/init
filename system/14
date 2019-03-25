@@ -1,0 +1,4 @@
+tail -f /var/log/syslog &
+# OR
+# nohup save result of command in the file
+nohup tail -f /var/log/syslog
