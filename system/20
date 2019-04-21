@@ -1,2 +1,1 @@
-# 20. List all existing users on the VM.
 cat /etc/group | cut -d ":" -f 1

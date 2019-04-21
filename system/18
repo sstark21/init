@@ -1,2 +1,1 @@
-# 18. Find the command that kills ssh service.
 ps -a | pidof ssh | xargs kill -9

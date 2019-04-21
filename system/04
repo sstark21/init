@@ -1,2 +1,1 @@
-# 4. What file has to be modified to make it permanent?
 uptime | cut -d " " -f 4
