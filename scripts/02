@@ -1,4 +1,0 @@
-#!/bin/bash
-username=$1
-sudo pkill -u $username
-userdel -frZ $username
