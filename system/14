@@ -1,1 +1,1 @@
-tail -f /var/log/syslog &
+sudo ail -f /var/log/syslog &
