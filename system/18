@@ -1,1 +1,2 @@
-ps -a | pidof ssh | xargs kill -9
+# sudo service ssh status | grep PID | awk '{print $3}'
+sudo kill [PID]
